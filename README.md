@@ -1,14 +1,19 @@
-# 🎁 Amigo Secreto - Sorteador ## 💻 Executar localmente
+# 🎁 Amigo Secreto - Sorteador
+
+## 💻 Executar localmente
 
 ```bash
 git clone https://github.com/Ruan-Pablo-Oli/Challange-para-processo-da-ONE.git
 cd Challange-para-processo-da-ONE
 ```
 
-Abra o `index.html` no navegador ou use:
+Abra o **index.html** no navegador ou use:
+
 ```bash
 python -m http.server 8000
-``` aplicação web simples e intuitiva para sortear amigos secretos, perfeita para confraternizações, festas e eventos especiais.
+``` 
+
+aplicação web simples e intuitiva para sortear amigos secretos, perfeita para confraternizações, festas e eventos especiais.
 
 ## 🌟 Demonstração
 
