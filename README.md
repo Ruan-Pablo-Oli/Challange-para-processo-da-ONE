@@ -86,6 +86,29 @@ Um aplicativo web simples e intuitivo para sortear amigos secretos! Perfeito par
 - 🖼️ **Elementos visuais**: Ícones intuitivos e imagens ilustrativas
 - ⚡ **Feedback visual**: Alertas informativos para o usuário
 
+## 🌐 Hospedagem e Deploy
+
+Este projeto está hospedado no **GitHub Pages**, uma plataforma gratuita de hospedagem para sites estáticos oferecida pelo GitHub.
+
+### 🚀 Como acessar:
+- **URL do projeto**: https://ruan-pablo-oli.github.io/Challange-para-processo-da-ONE/
+- **Status**: ✅ Online 24/7
+- **SSL/HTTPS**: ✅ Certificado automático
+- **CDN Global**: ✅ Distribuição mundial
+
+### ⚙️ Como foi configurado:
+1. **GitHub Actions**: Deploy automatizado a cada push na branch `main`
+2. **Workflow personalizado**: Configurado em `.github/workflows/deploy.yml`
+3. **Domínio personalizado**: Disponível gratuitamente pelo GitHub
+4. **Updates automáticos**: Site atualiza automaticamente com novos commits
+
+### 📊 Vantagens do GitHub Pages:
+- 🆓 **Gratuito**: Hospedagem sem custos
+- ⚡ **Rápido**: CDN global do GitHub
+- 🔄 **CI/CD integrado**: Deploy automático
+- 🔒 **Seguro**: HTTPS automático
+- 📱 **Responsivo**: Funciona em todos os dispositivos
+
 ## 🤝 Contribuições
 
 Contribuições são sempre bem-vindas! Para contribuir:
