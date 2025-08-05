@@ -8,12 +8,13 @@ let listaAmigos = [];
 function adicionarAmigo(){
     let campo = document.querySelector('input');
     let nomeAmigo = campo.value.trim();
-    if(nomeAmigo == null){
+    if(nomeAmigo == ''){
         alert('Porfavor, insira um nome!');
+        return 
     }
 
+    campo.value = '';
     listaAmigos.push(nomeAmigo);
-    campo.innerHTML = '';
     atualizarListaAmigos();
 }
 
@@ -25,12 +26,28 @@ function atualizarListaAmigos(){
         li.textContent = listaAmigos[i];
         campoListaAmigos.appendChild(li);
     }
-
+}
 
 function sortearAmigo(){
-    if(listaAmigos.length == 0){
-        alert("A lista de amigos está vazio,adicione amigos!");
+    console.log("Aqui");
+    console.log(listaAmigos);
+    let quantidadeListaAmigos = listaAmigos.length;
+    if(quantidadeListaAmigos == 0){
+        alert('A lista de amigos está vazia, por favor insira amigos!');
     }
-}
+
+    let resultadoCampo = document.getElementById("resultado");
+    resultadoCampo.innerHTML = '' ;
+
+    let li = document.createElement("li");
+    li.textContent = listaAmigos[gerarNumeroAleatorio(quantidadeListaAmigos)];
+    resultadoCampo.appendChild(li); 
+
 
 }
+
+
+function gerarNumeroAleatorio(n){
+    return parseInt(Math.random() * n);
+}
+
